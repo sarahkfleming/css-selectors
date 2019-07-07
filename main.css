@@ -1,0 +1,50 @@
+header {
+  border: 1px goldenrod solid;
+}
+
+nav li  {
+  display: inline;
+  padding: 0px 4px 0px 4px;
+}
+
+.disabled {
+  color: grey;
+}
+
+a .disabled {
+  color: purple;
+}
+
+.active {
+  color: yellow;
+}
+
+.parent div div:first-child {
+  color: red;
+}
+
+.parent div div:nth-child(3) {
+  color: blue;
+}
+
+.parent div h4:nth-child(2) {
+  background-color: red;
+}
+
+.parent div h4:nth-child(4) {
+  background-color: blue;
+}
+
+.grandparent > h4 {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.promo {
+  font-weight: bold;
+  color: gold;
+}
+
+input {
+  height: 25px;
+}
